@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserHomePageController">
+   <children>
+      <ListView fx:id="viewAlbums" layoutX="205.0" layoutY="79.0" prefHeight="227.0" prefWidth="199.0" />
+      <Button fx:id="createAlbum" layoutX="112.0" layoutY="327.0" mnemonicParsing="false" onAction="#createAlbumPressed" text="Create" />
+      <Button fx:id="renameAlbum" layoutX="226.0" layoutY="327.0" mnemonicParsing="false" text="Rename" />
+      <Button fx:id="deleteAlbum" layoutX="346.0" layoutY="327.0" mnemonicParsing="false" text="Delete" />
+      <Button fx:id="logout" layoutX="456.0" layoutY="327.0" mnemonicParsing="false" onAction="#userLogout" text="Logout" />
+      <Text fx:id="userName" layoutX="40.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="101.2060546875" />
+   </children>
+</AnchorPane>
