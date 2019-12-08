@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserHomePageController">
+   <children>
+      <ListView fx:id="albumsList" layoutX="103.0" layoutY="47.0" prefHeight="264.0" prefWidth="406.0" />
+      <Button fx:id="createAlbum" layoutX="112.0" layoutY="327.0" mnemonicParsing="false" onAction="#createAlbumPressed" text="Create" />
+      <Button fx:id="renameAlbum" layoutX="587.0" layoutY="187.0" mnemonicParsing="false" onAction="#renameAlbumPressed" text="Rename" />
+      <Button fx:id="deleteAlbum" layoutX="222.0" layoutY="327.0" mnemonicParsing="false" onAction="#deleteAlbumPressed" text="Delete" />
+      <Button fx:id="logout" layoutX="456.0" layoutY="327.0" mnemonicParsing="false" onAction="#userLogout" text="Logout" />
+      <Text fx:id="userName" layoutX="40.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="101.2060546875" />
+      <Label alignment="CENTER" layoutX="191.0" layoutY="25.0" prefHeight="17.0" prefWidth="217.0" text="Album List" />
+      <Button fx:id="openButton" layoutX="335.0" layoutY="327.0" mnemonicParsing="false" onAction="#openAlbum" text="Open" />
+      <TextField fx:id="renameField" layoutX="542.0" layoutY="147.0" />
+   </children>
+</AnchorPane>
