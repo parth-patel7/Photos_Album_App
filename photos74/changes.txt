@@ -1,7 +1,0 @@
-11/16 Parth 5:45PM:
-	controllers: made controllers package to store all controllers
-		- added LoginController for Login.fxml
-		- added UserHomePageController for UserHomePage.fxml
-	view: made view package for all fxml files
-		- added Login.fxml
-		- added UserHomePage.fxml
