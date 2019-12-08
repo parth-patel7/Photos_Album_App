@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"user","c":"UserTags","l":"getTag()"},{"p":"user","c":"UserTags","l":"getValue()"},{"p":"user","c":"UserTags","l":"toString()"},{"p":"user","c":"UserTags","l":"UserTags(String, String)","url":"%3Cinit%3E(java.lang.String,java.lang.String)"}]

@@ -1,0 +1,51 @@
+11/16 Parth 5:45PM:
+	controllers: made controllers package to store all controllers
+		- added LoginController for Login.fxml
+		- added UserHomePageController for UserHomePage.fxml
+	view: made view package for all fxml files
+		- added Login.fxml
+		- added UserHomePage.fxml
+
+11/17 Josh 4:36PM:
+	General:
+		- added AdminHomePageController.java for AdminHomePage.fxml
+		- added package 'user' for class User.java
+		- changed design for login credentials:
+			* login info stored in csv file, LoginDetails.csv
+			* login info stored in User objects and sent to ObservableList
+			* read user info by using BufferedReader and split(","). 
+				> First index is username, second is password
+		- checkIfUserExists now only checks for matching usernames
+		- LoginDetails.csv is updated when AdminHomePage is closed or logged out of.
+	
+11/17 Parth 7:20PM:
+		- added createAlbum.fxml 
+		- added renameAlbum.fxml
+		
+11/19 Parth 12:00PM:
+		- added search fxml files
+		
+11/19 Josh 4:53PM:
+		- fixed album list in UserHomePageController, some methods need to be readjusted.	
+		- quick fix (5:09pm): fixed bug where user list would duplicate in admin page.
+
+11/19 Josh 7:53PM:
+		- added stock photos in workspace (src/stock/)
+			* stock photos are loaded in when logged into "stock" user
+		- added more functionality to AlbumPageController
+
+11/19 Josh 10:36PM:
+		- fixed functionality to UserHomePage buttons.
+		- added add photo, caption & delete functionality to AlbumPage
+		
+11/19 Parth 11:42PM:
+		- added tags, delete(tags) and search photos fxml 
+		- added methods for them
+		
+11/19 Josh 11:31PM:
+		- added saving to object states
+		- added stock user and its albums
+		- other general changes
+	 
+11/20 Parth 11:42PM:
+		- now album main page shows latest and oldest photo
